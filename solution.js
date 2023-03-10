@@ -17,12 +17,7 @@ function sizeOfGroup(group) {
 
         }
     }
-
-
-
-
     return result
 }
 
 console.log(sizeOfGroup(groups))
-

@@ -13,4 +13,35 @@ Finalmente, la función devuelve el array **result**, que contiene todos los nú
 
 ## Documentación Postman
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/9a9d4b0d9c9c1d7f9d7a)
+Adjunto el link del la collecion de postman y igualmente el boton para importar la collecion.
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/21047963/2s93JtPNxB)
+
+
+## Deploy Amazon
+
+Como se indico en el documento enviado se realizo el deploy en AWS con las herramientas:
+
+* AWS Lambda - Para la creacion de la funcion
+* AWS API Gateway - Para la creacion del endpoint
+
+Dicho endpoint tiene que recibir un array de numeros y retornar un array de numeros.
+
+* Request - POST
+
+```json
+{
+    "group": [3, 3, 4, 2, 4, 4, 2, 5, 3, 4, 4, 2, 3, 3, 3]
+}
+```
+
+* Response
+
+```json
+{
+     "size": "[3,4,6,12]"
+}
+```
+
+
+https://1egtebm8dd.execute-api.us-east-1.amazonaws.com/solution/solucion-problem-bus
