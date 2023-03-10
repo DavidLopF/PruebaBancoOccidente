@@ -15,6 +15,8 @@ Finalmente, la función devuelve el array **result**, que contiene todos los nú
 
 Adjunto el link del la collecion de postman y igualmente el boton para importar la collecion.
 
+https://documenter.getpostman.com/view/21047963/2s93JtPNxB
+
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/21047963/2s93JtPNxB)
 
 
