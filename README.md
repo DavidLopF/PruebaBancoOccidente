@@ -25,6 +25,8 @@ Como se indico en el documento enviado se realizo el deploy en AWS con las herra
 * AWS Lambda - Para la creacion de la funcion
 * AWS API Gateway - Para la creacion del endpoint
 
+https://1egtebm8dd.execute-api.us-east-1.amazonaws.com/solution/solucion-problem-bus
+
 Dicho endpoint tiene que recibir un array de numeros y retornar un array de numeros.
 
 * Request - POST
@@ -44,4 +46,3 @@ Dicho endpoint tiene que recibir un array de numeros y retornar un array de nume
 ```
 
 
-https://1egtebm8dd.execute-api.us-east-1.amazonaws.com/solution/solucion-problem-bus
